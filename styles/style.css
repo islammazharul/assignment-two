@@ -15,7 +15,7 @@
     padding: 60px 240px;
 
 }
-.title, .experience-title{
+.title, .experience-title, .fact-title{
     font-size: 45px;
     font-weight: 700;
     color: #131313;
@@ -51,7 +51,8 @@
 }
 .banner-description, 
 .feature-description, 
-.experience-description{
+.experience-description, 
+.fact-description{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -103,7 +104,7 @@
     justify-content: center;
     align-items: center;
     gap: 54px;
-    margin-bottom: 130px;
+    /* margin-bottom: 130px; */
 }
 .experience-other-data{
     padding: 20px;
@@ -135,4 +136,30 @@
 .btn-small{
     font-size: 25px;
     font-weight: 500;
+}
+.facts{
+    padding: 130px;
+}
+.client{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.client-work{
+    /* width: 242px;
+    height: 242px; */
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px;
+}
+.amount{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+.amount-item{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
 }
