@@ -15,7 +15,10 @@
     padding: 60px 240px;
 
 }
-.title, .experience-title, .fact-title{
+.title, 
+.experience-title, 
+.fact-title, 
+.sponsor-title{
     font-size: 45px;
     font-weight: 700;
     color: #131313;
@@ -52,7 +55,8 @@
 .banner-description, 
 .feature-description, 
 .experience-description, 
-.fact-description{
+.fact-description, 
+.sponsor-description{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -162,4 +166,30 @@
     font-size: 20px;
     font-weight: 600;
     color: #727272;
+}
+.sponsor-container{
+    margin-top: 130px;
+}
+.sponsor{
+    text-align: center;
+    padding: 30px auto 30px;
+}
+.sponsor-company{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.copyright-container{
+    text-align: center;
+}
+.copyright{
+    padding: 30px;
+    background: #FFF4E7;
+    margin: 130px 240px 216px;
+    border-radius: 8px;
+}
+.copyright-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
 }
