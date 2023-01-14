@@ -56,7 +56,8 @@
 .feature-description, 
 .experience-description, 
 .fact-description, 
-.sponsor-description{
+.sponsor-description, 
+.description{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -107,7 +108,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 54px;
+    gap: 80px;
+    margin: 120px;
     /* margin-bottom: 130px; */
 }
 .experience-other-data{
@@ -121,7 +123,8 @@
     padding: 20px;
 }
 .experience-img{
-    padding: 30px;
+    padding: 50px;
+    margin-right: 20px;
 }
 .btn-experience{
     width: 342px;
@@ -167,6 +170,33 @@
     font-weight: 600;
     color: #727272;
 }
+.article-container{
+    margin: 130px;
+}
+.article{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.article-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.article-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+    /* grid-template-columns: repeat(3, 280px); */
+}
+.article-box{
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.6);
+}
+/* Footer style */
 .sponsor-container{
     margin-top: 130px;
 }
