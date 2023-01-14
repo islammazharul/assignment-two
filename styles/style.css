@@ -38,7 +38,7 @@
 .banner{
     text-align: center;
     /* margin-top: 200px; */
-    /* padding: 0 auto; */
+    padding: 50px;
     
 }
 .banner-item{
@@ -49,7 +49,7 @@
     font-weight: 700;
     color: #131313;
 }
-.banner-description{
+.banner-description, .feature-description{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -66,4 +66,33 @@
     border: none;
     border-radius: 8px;
     margin-bottom: 50px;
+}
+/* Main style */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+.sp-1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.sp-2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.sp-3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E; 
 }
