@@ -15,7 +15,7 @@
     padding: 60px 240px;
 
 }
-.title{
+.title, .experience-title{
     font-size: 45px;
     font-weight: 700;
     color: #131313;
@@ -49,7 +49,9 @@
     font-weight: 700;
     color: #131313;
 }
-.banner-description, .feature-description{
+.banner-description, 
+.feature-description, 
+.experience-description{
     font-size: 16px;
     font-weight: 400;
     color: #727272;
@@ -95,4 +97,42 @@
     font-size: 45px;
     font-weight: 700;
     color: #FF900E; 
+}
+.experience-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    margin-bottom: 130px;
+}
+.experience-other-data{
+    padding: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    background-color: #FFFF;
+    border-radius: 8px;
+}
+.experience-title{
+    border-left: 4px solid #FF900E;
+    padding: 20px;
+}
+.experience-img{
+    padding: 30px;
+}
+.btn-experience{
+    width: 342px;
+    height: 200px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFF;
+    background-color: #FF900E;
+    margin-left: -50px;
+    margin-top: -100px;
+}
+.btn-big{
+    font-size: 65px;
+    font-weight: 700px;
+}
+.btn-small{
+    font-size: 25px;
+    font-weight: 500;
 }
