@@ -75,6 +75,10 @@
     border-radius: 8px;
     margin-bottom: 50px;
 }
+.btn-primary:hover{
+    color: #FF900E;
+    background-color: #FFFF;
+}
 /* Main style */
 .feature-container{
     display: flex;
@@ -135,6 +139,10 @@
     background-color: #FF900E;
     margin-left: -50px;
     margin-top: -100px;
+}
+.btn-experience:hover{
+    color: #FF900E;
+    background-color: #FFFF;
 }
 .btn-big{
     font-size: 65px;
