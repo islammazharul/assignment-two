@@ -159,7 +159,14 @@
     border-radius: 8px;
     text-align: center;
     padding: 50px;
+    transition: width 3s, height 3s, background-color 3s, transform 3s; transition-delay: 1s;
 }
+.client-work:hover {
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    
+  }
 .amount{
     font-size: 45px;
     font-weight: 600;
@@ -222,4 +229,91 @@
     font-size: 20px;
     font-weight: 400;
     color: #424242;
+}
+.hide{
+    display: none;
+}
+
+/* Responsive for mobile device */
+@media only screen and (max-width: 576px){
+    .navbar {
+        justify-content: flex-end;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .banner-img img{
+        height: 300px;
+        width: 400px;
+    }
+    .feature-container {
+        display: flex;
+        align-items: center;
+        /* gap: 73px; */
+        /* margin-top: 85px
+    px
+    ; */
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: stretch;
+        justify-content: center;
+    }
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        /* grid-column-gap: 24px; */
+        /* grid-row-gap: 24px; */
+    }
+    .feature{
+        padding: 10px;
+    }
+    .experience-container{
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+    .experience-description{
+        padding: 15px;
+    }
+    .experience-img img{
+        height: 300px;
+        width: 350px;
+        margin-left: 20px;
+        padding: 0;
+    }
+    .btn-experience{
+        padding: 0;
+        margin-left: 10px;
+        height: 100px;
+        width: 200px;   
+    }
+    .btn-big{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .btn-small{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .facts{
+        padding: 15px;
+    }
+    .client{
+        flex-direction: column;
+    }
+    .client-work{
+        padding: 20px;
+        margin: 10px;
+    }
+    .article-img{
+        flex-direction: column;
+    }
+    .sponsor-company{
+        flex-direction: column;
+    }
+    .copyright{
+        margin: 10px;
+    }
+
 }
